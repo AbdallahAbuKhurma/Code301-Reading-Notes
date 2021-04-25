@@ -1,6 +1,8 @@
 # Reading Notes
 
-Welcome to my reading notes, I'm Abdallah Abu Khurma and here you can find the summarized reads :).
+## INTRO
+
+Welcome to my ReadingNotes page, I'm Abdallah Abu Khurma, I'm 23 years old, graduated from Near East University as a civil engineer, currently I'm a software development student at LTUC.
 
 ## Code 102 - Intro to Software Development
 
