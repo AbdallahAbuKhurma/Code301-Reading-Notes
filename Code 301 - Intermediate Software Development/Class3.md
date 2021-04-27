@@ -2,11 +2,11 @@
 
 ## Lifting State Up
 
-Often, several components need to reflect the same changing data. We recommend lifting the shared state up to their closest common ancestor. Let’s see how this works in action.
+"Often, several components need to reflect the same changing data. We recommend lifting the shared state up to their closest common ancestor. Let’s see how this works in action.
 
 In this section, we will create a temperature calculator that calculates whether the water would boil at a given temperature.
 
-Next, we will create a component called Calculator. It renders an <input> that lets you enter the temperature, and keeps its value in this.state.temperature.
+Next, we will create a component called Calculator. It renders an (input) that lets you enter the temperature, and keeps its value in this.state.temperature.
 
 ### Adding a Second Input
 
@@ -37,7 +37,7 @@ If the Calculator owns the shared state, it becomes the “source of truth” fo
 
 Let’s see how this works step by step.
 
-First, we will replace this.state.temperature with this.props.temperature in the TemperatureInput component. For now, let’s pretend this.props.temperature already exists, although we will need to pass it from the Calculator in the future:
+First, we will replace this.state.temperature with this.props.temperature in the TemperatureInput component. For now, let’s pretend this.props.temperature already exists, although we will need to pass it from the Calculator in the future:"
 
 ### Recap
 
@@ -65,11 +65,11 @@ First, let’s review how you transform lists in JavaScript.
 
 Given the code below, we use the map() function to take an array of numbers and double their values. We assign the new array returned by map() to the variable doubled and log it:
 
-### Rendering Multiple Components
+"### Rendering Multiple Components
 
 You can build collections of elements and include them in JSX using curly braces {}.
 
-Below, we loop through the numbers array using the JavaScript map() function. We return a <li> element for each item. Finally, we assign the resulting array of elements to listItems
+Below, we loop through the numbers array using the JavaScript map() function. We return a (li) element for each item. Finally, we assign the resulting array of elements to listItems
 
 ### Basic List Component
 
@@ -91,13 +91,13 @@ When you don’t have stable IDs for rendered items, you may use the item index 
 
 ### Extracting Components with Keys
 
-Keys only make sense in the context of the surrounding array.
+Keys only make sense in the context of the surrounding array."
 
 For example, if you extract a ListItem component, you should keep the key on the (ListItem ) elements in the array rather than on the (li) element in the ListItem itself.
 
 ## How to Use the Spread Operator (…) in JavaScript
 
-The spread operator is a useful and quick syntax for adding items to arrays, combining arrays or objects, and spreading an array out into a function’s arguments.
+"The spread operator is a useful and quick syntax for adding items to arrays, combining arrays or objects, and spreading an array out into a function’s arguments.
 
 ### What is the spread operator?
 
@@ -147,4 +147,10 @@ The spread syntax is useful for combining the properties and methods on objects 
 
 ### Conclusion
 
-“The spread operator can expand another item by split an iterable element like a string or an array into individual elements:” — CodinGame.com
+“The spread operator can expand another item by split an iterable element like a string or an array into individual elements:” — CodinGame.com"
+
+[Lifting State Up](https://reactjs.org/docs/lifting-state-up.html)
+
+[Lists and Keys](https://reactjs.org/docs/lists-and-keys.html)
+
+[How to Use the Spread Operator (…) in JavaScript](https://medium.com/coding-at-dawn/how-to-use-the-spread-operator-in-javascript-b9e4a8b06fab)
